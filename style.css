@@ -1,0 +1,250 @@
+/*
+Theme Name: SBS News Theme
+Theme URI: http://sbsradio.live
+Author: Kavare Krietiv
+Author URI: http://kavarekrietiv.co.ke
+Description: SBS Radio news website theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: sbs radio, news, radio
+Text Domain: sbsradio
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigation{
+    border-top: 1px solid #E41321;
+    border-bottom: 1px solid #E41321;
+}
+
+.nav-link{
+    margin: 20px;
+    font-size: 13px;
+    background: linear-gradient(180deg, transparent, #353535, transparent);
+    background-position: 100%;
+    background-repeat: repeat-y;
+    background-size: 1px auto;
+}
+
+.nav-link:hover{
+    background-color: #E41321;
+    color: #ffffff;
+}
+
+/*.nav-item:hover{*/
+/*    color: #ffffff;*/
+/*}*/
+
+.navbar-light .nav-item .nav-link,
+.navbar-light .nav-item .nav-link,
+.navbar-light .nav-item .nav-link {
+    font-weight: bold;
+}
+
+
+/*.navbar-light  .nav-link,*/
+/*.navbar-light .nav-item:focus .nav-link,*/
+/*.navbar-light .nav-item:hover .nav-link {*/
+/*    color: #ffffff;*/
+/*}*/
+
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:focus .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+    background-color: #E41321;
+    color: #ffffff;
+}
+
+.navbar-light  .nav-link,
+.navbar-light .nav-item:focus .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.news-menu-text{
+    color: #0d0d0d;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 20px;
+    /*padding-left: 50px;*/
+    /*padding-right: 50px;*/
+}
+
+.news-item{
+    background-color: #E3E3E2;
+    color: #0553A0;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.news-item a{
+    color: #0553A0;
+}
+
+.news-item img{
+    border-right:1px solid #0553A0;
+}
+
+.news-menu{
+    border-top: 2px solid #c82333;
+}
+
+.news-one{
+    background-color: #E3E3E2;
+}
+
+.footer{
+    background-color: #2D2A27;
+    padding-top: 50px;
+}
+
+.footer-text{
+    font-size: 8px;
+    color: #E3E3E2;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.footer-bottom{
+    padding: 60px;
+    border-top: 1px solid #ffffff;
+    background-color: #2D2A27;
+    color: #E3E3E2;
+    font-size: 10px;
+    /*margin-top: 20px;*/
+}
+
+.footer-bottom h6{
+    text-align: center;
+    color: #E3E3E2;
+}
+
+.footer-communication{
+    color: #E3E3E2;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.about-content{
+    border-top: 5px solid white;
+    background-color: #E3E3E2;
+}
+
+.about-text{
+    font-size: 12px;
+}
+
+.about-news{
+    background-color: #ffffff;
+    padding-top:40px;
+    padding-bottom:50px;
+}
+
+.about-news a{
+    font-weight: bold;
+}
+
+.about-news-title{
+    /*margin-top: 50px;*/
+}
+
+.habari-links a{
+    color: #E3E3E2;
+    font-size: 13px;
+}
+
+.habari-links a:hover{
+    color: #70B62E;
+    font-size: 13px;
+    text-decoration: none;
+}
+.about-news-highlights-read-more{
+    background-color: #E3E3E2;
+}
+
+.about-news-highlights-read-more a{
+    color: #70B62E;
+    font-size: 13px;
+}
+
+.about-news-highlights-content{
+    font-size: 13px;
+}
+
+.about-news-highlights-title{
+    font-size: 13px;
+}
+
+.post-user{
+    color: #70B62E;
+}
+
+.post-time{
+    color: #70B62E;
+}
+
+.about-testimonials{
+    background-color: #E3E3E2;
+    padding: 50px;
+}
+
+.contact-section{
+    /*background: #000000 url("assests/ContactForm_Image.png") no-repeat right center;*/
+    border-bottom:  1px solid #ffffff;
+    background: url('http://127.0.0.1/wordpress/wp-content/uploads/2020/07/Contact-Form.gif');
+    background-repeat: no-repeat;
+    background-position: right 150px center;
+    background-color: #2D2A27;
+    background-size: auto 600px;
+    /*border-right: 100px solid transparent;*/
+    /*background-size: 50% auto;*/
+}
+
+.social-media-icon{
+    /*padding: 10px;*/
+    /*border: 1px solid #E3E3E2;*/
+    /*border-radius: 200%;*/
+}
+
+.social-media a{
+    color: #E3E3E2;
+    margin: 10px;
+}
+
+.social-media a:hover{
+    color: #70B62E;
+    transform: scale(1.2);
+}
+
+.about-staff{
+    background-color: #2D2A27;
+}
+
+.ceo-message {
+    background-color: #E3E3E2;
+
+}
+/*menu animation*/
+.dropdown .dropdown-menu {
+    transition: all 0.5s;
+    overflow: hidden;
+    transform-origin: top center;
+    transform: scale(1, 0);
+    display: block;
+}
+.dropdown:hover .dropdown-menu {
+    transform: scale(1);
+}
+
+audio::-webkit-media-controls-panel{
+    background-color: rgba(200,200,200,1);
+    width:350px;
+}
+
