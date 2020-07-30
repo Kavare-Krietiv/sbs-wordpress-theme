@@ -68,7 +68,7 @@
             <form>
                 <div class="input-group input-group-sm">
                     <div class="input-group-prepend">
-                        <button class="btn btn-sm btn-danger" style="font-weight: bold">Listen Live</button>
+                        <a href="http://127.0.0.1/wordpress/#listen-live" class="btn btn-sm btn-danger" style="font-weight: bold">Listen Live</a>
                     </div>
                     <input type="text" class="form-control">
                     <div class="input-group-append">

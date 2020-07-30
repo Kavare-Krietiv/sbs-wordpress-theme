@@ -1,20 +1,5 @@
 <?php get_header(); ?>
 
-<!--<div class="container-fluid">-->
-<!--    <h5>-->
-<!--        --><?php //the_title(); ?>
-<!--    </h5>-->
-<!---->
-<!--    --><?php
-//    if(have_posts()):while(have_posts()):the_post();
-//        ?>
-<!---->
-<!--        --><?php //the_content(); ?>
-<!---->
-<!--    --><?php //endwhile; endif ?>
-<!---->
-<!--</div>-->
-
 <div id="demo" class="carousel slide" data-ride="carousel" data-interval="2000">
 
     <!-- Indicators -->
@@ -130,7 +115,7 @@
     </div>
 </div>
 
-<div class="about-news">
+<div class="about-news" id="listen-live">
     <div class="container-fluid">
         <div class="row about-news-title">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -220,52 +205,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-
-<div class="about-testimonials">
-    <div class="container">
-        <div id="myTestimonials" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <!--                <ol class="carousel-indicators">-->
-            <!--                    <li data-target="#myTestimonials" data-slide-to="0" class="active"></li>-->
-            <!--                    <li data-target="#myTestimonials" data-slide-to="1"></li>-->
-            <!--                    <li data-target="#myTestimonials" data-slide-to="2"></li>-->
-            <!--                </ol>-->
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <div class="row">
-                        <div class="col">
-                            <img src="<?php echo get_template_directory_uri();?>/assests/Testimonial-1.png" class="img-fluid" width="400" alt="testimonial">
-                        </div>
-                        <div class="col">
-                            <p style="text-align: center;font-size: 13px">WHAT DO YOU SAY ABOUT US?</p>
-                            <h4 style="text-align: center;color: #0553A0"><b>TESTIMONIALS</b></h4>
-                            <p style="text-align: center;font-size: 14px">
-                                Kama Mkereketwa na Shabiki mkuu wa SBS Radio, ningependa kuwapongeza SBS
-                                kwa kutuletea Radio hii inayo tujuza mambo lukuki, inayotufunza na kutuburudisha
-                                pasi kipimo mbali na kutiliwaza na midundo kemekem na kochokocho. Vipindi vyao
-                                havina mfano, watangazaji wao mahiri na wanajua hadi inakera. Asante SBS Radio.
-                            </p>
-                            <p style="text-align: center;font-size: 14px"><b>ISSAH MWANGOME</b></p>
-                            <p style="text-align: center;font-size: 13px">SBS RADIO DIE-HARD FAN</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Left and right controls -->
-            <!--            <a class="left carousel-control" href="#myTestimonials" data-slide="prev">-->
-            <!--                <span class="glyphicon glyphicon-chevron-left"></span>-->
-            <!--                <span class="sr-only">Previous</span>-->
-            <!--            </a>-->
-            <!--            <a class="right carousel-control" href="#myTestimonials" data-slide="next">-->
-            <!--                <span class="glyphicon glyphicon-chevron-right"></span>-->
-            <!--                <span class="sr-only">Next</span>-->
-            <!--            </a>-->
         </div>
     </div>
 </div>
